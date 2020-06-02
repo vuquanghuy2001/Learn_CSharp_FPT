@@ -1,0 +1,14 @@
+F:\hoc_tap\C_Sharp\SS3\bin\Debug\SS3.exe.config
+F:\hoc_tap\C_Sharp\SS3\bin\Debug\SS3.exe
+F:\hoc_tap\C_Sharp\SS3\bin\Debug\SS3.pdb
+F:\hoc_tap\C_Sharp\SS3\obj\Debug\CS2.csprojAssemblyReference.cache
+F:\hoc_tap\C_Sharp\SS3\obj\Debug\CS2.csproj.CoreCompileInputs.cache
+F:\hoc_tap\C_Sharp\SS3\obj\Debug\SS3.exe
+F:\hoc_tap\C_Sharp\SS3\obj\Debug\SS3.pdb
+F:\hoc_tap\Learn_CSharp_FPT\Learn_CSharp_DotNET\bin\Debug\SS3.exe.config
+F:\hoc_tap\Learn_CSharp_FPT\Learn_CSharp_DotNET\bin\Debug\SS3.exe
+F:\hoc_tap\Learn_CSharp_FPT\Learn_CSharp_DotNET\bin\Debug\SS3.pdb
+F:\hoc_tap\Learn_CSharp_FPT\Learn_CSharp_DotNET\obj\Debug\CS2.csprojAssemblyReference.cache
+F:\hoc_tap\Learn_CSharp_FPT\Learn_CSharp_DotNET\obj\Debug\CS2.csproj.CoreCompileInputs.cache
+F:\hoc_tap\Learn_CSharp_FPT\Learn_CSharp_DotNET\obj\Debug\SS3.exe
+F:\hoc_tap\Learn_CSharp_FPT\Learn_CSharp_DotNET\obj\Debug\SS3.pdb
