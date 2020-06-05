@@ -43,9 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Book\Session_6\Code_Snippet_12.cs" />
+    <Compile Include="Book\Session_6\Code_Snippet_1.cs" />
     <Compile Include="Book\Session_3\Run.cs" />
     <Compile Include="Book\Session_4\Run.cs" />
     <Compile Include="Book\Session_5\Run.cs" />
+    <Compile Include="Book\Session_6\Code_Snippet_2.cs" />
+    <Compile Include="Book\Session_6\Code_Snippet_3.cs" />
+    <Compile Include="Book\Session_6\Code_Snippet_4.cs" />
+    <Compile Include="Book\Session_6\Code_Snippet_5.cs" />
+    <Compile Include="Book\Session_6\Code_Snippet_6.cs" />
+    <Compile Include="Book\Session_6\Code_Snippet_7.cs" />
     <Compile Include="CodeLean\AP_03\Run.cs" />
     <Compile Include="CodeLean\AP_04\Run.cs" />
     <Compile Include="CodeLean\AP_05\Run.cs" />

@@ -12,7 +12,9 @@ namespace Learn_CSharp_DotNET
         {
             //Book
             //Book.Session_3.Run.Test();
-            Book.Session_4.Run.Test();
+            //Book.Session_4.Run.Test();
+            //Book.Session_5.Run.Test();
+            //Book.Session_6.Run.Test();
 
 
             //CodeLean
