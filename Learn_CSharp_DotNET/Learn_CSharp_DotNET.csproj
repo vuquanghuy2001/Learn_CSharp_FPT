@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0A527E16-ECF8-454A-BDE9-0F2162CED437}</ProjectGuid>
+    <ProjectGuid>{5A9DB32B-BC59-42B6-AD70-9DDB865EEF55}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SS3</RootNamespace>
-    <AssemblyName>SS3</AssemblyName>
+    <RootNamespace>Learn_CSharp_DotNET</RootNamespace>
+    <AssemblyName>Learn_CSharp_DotNET</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SS3.cs" />
+    <Compile Include="Book\Session_3\Run.cs" />
+    <Compile Include="Book\Session_4\Run.cs" />
+    <Compile Include="Book\Session_5\Run.cs" />
+    <Compile Include="CodeLean\AP_03\Run.cs" />
+    <Compile Include="CodeLean\AP_04\Run.cs" />
+    <Compile Include="CodeLean\AP_05\Run.cs" />
+    <Compile Include="CodeLean\AP_06\Run.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

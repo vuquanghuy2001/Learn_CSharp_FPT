@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SS3")]
+[assembly: AssemblyTitle("Learn_CSharp_DotNET")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SS3")]
+[assembly: AssemblyProduct("Learn_CSharp_DotNET")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0a527e16-ecf8-454a-bde9-0f2162ced437")]
+[assembly: Guid("5a9db32b-bc59-42b6-ad70-9ddb865eef55")]
 
 // Version information for an assembly consists of the following four values:
 //

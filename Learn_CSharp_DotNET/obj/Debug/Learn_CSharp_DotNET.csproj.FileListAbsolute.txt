@@ -1,0 +1,7 @@
+F:\hoc_tap\Learn_CSharp_FPT\Learn_CSharp_DotNET\bin\Debug\Learn_CSharp_DotNET.exe.config
+F:\hoc_tap\Learn_CSharp_FPT\Learn_CSharp_DotNET\bin\Debug\Learn_CSharp_DotNET.exe
+F:\hoc_tap\Learn_CSharp_FPT\Learn_CSharp_DotNET\bin\Debug\Learn_CSharp_DotNET.pdb
+F:\hoc_tap\Learn_CSharp_FPT\Learn_CSharp_DotNET\obj\Debug\Learn_CSharp_DotNET.csproj.CoreCompileInputs.cache
+F:\hoc_tap\Learn_CSharp_FPT\Learn_CSharp_DotNET\obj\Debug\Learn_CSharp_DotNET.exe
+F:\hoc_tap\Learn_CSharp_FPT\Learn_CSharp_DotNET\obj\Debug\Learn_CSharp_DotNET.pdb
+F:\hoc_tap\Learn_CSharp_FPT\Learn_CSharp_DotNET\obj\Debug\Learn_CSharp_DotNET.csprojAssemblyReference.cache
