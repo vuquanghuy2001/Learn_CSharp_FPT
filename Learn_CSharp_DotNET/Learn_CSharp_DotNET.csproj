@@ -48,7 +48,15 @@
     <Compile Include="Book\Session_3\Run.cs" />
     <Compile Include="Book\Session_4\Run.cs" />
     <Compile Include="Book\Session_5\Run.cs" />
+    <Compile Include="Book\Session_6\Code_Snippet_13.cs" />
+    <Compile Include="Book\Session_6\Code_Snippet_14.cs" />
+    <Compile Include="Book\Session_6\Code_Snippet_15.cs" />
+    <Compile Include="Book\Session_6\Code_Snippet_16.cs" />
+    <Compile Include="Book\Session_6\Code_Snippet_17.cs" />
+    <Compile Include="Book\Session_6\COde_Snippet_18.cs" />
+    <Compile Include="Book\Session_6\Code_Snippet_19.cs" />
     <Compile Include="Book\Session_6\Code_Snippet_2.cs" />
+    <Compile Include="Book\Session_6\Code_Snippet_20.cs" />
     <Compile Include="Book\Session_6\Code_Snippet_3.cs" />
     <Compile Include="Book\Session_6\Code_Snippet_4.cs" />
     <Compile Include="Book\Session_6\Code_Snippet_5.cs" />
@@ -58,6 +66,19 @@
     <Compile Include="CodeLean\AP_04\Run.cs" />
     <Compile Include="CodeLean\AP_05\Run.cs" />
     <Compile Include="CodeLean\AP_06\Run.cs" />
+    <Compile Include="Lab\Lab_3\BooleanAccept.cs" />
+    <Compile Include="Lab\Lab_3\Button.cs" />
+    <Compile Include="Lab\Lab_3\Car.cs" />
+    <Compile Include="Lab\Lab_3\Employee.cs" />
+    <Compile Include="Lab\Lab_3\ListBox.cs" />
+    <Compile Include="Lab\Lab_3\Run.cs" />
+    <Compile Include="Lab\Lab_3\Window.cs" />
+    <Compile Include="lession\lessdion3\Book.cs" />
+    <Compile Include="lession\lessdion3\Option.cs" />
+    <Compile Include="lession\lessdion3\Product.cs" />
+    <Compile Include="lession\lessdion3\Student_2.cs" />
+    <Compile Include="lession\lessdion3\Run.cs" />
+    <Compile Include="lession\lessdion3\Students.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

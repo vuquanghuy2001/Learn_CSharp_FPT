@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Learn_CSharp_DotNET.lession.lessdion3.Students;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,10 @@ namespace Learn_CSharp_DotNET
             //CodeLean.AP_04.Run.Test();
             //CodeLean.AP_05.Run.Test();
             //CodeLean.AP_06.Run.Test();
+
+            //lession.lessdion3.Students.Run.Test();
+
+            Lab.Lab_3.Run.Test();
 
             //Pause:
             Console.ReadKey();
