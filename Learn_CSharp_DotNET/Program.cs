@@ -1,4 +1,5 @@
-﻿using Learn_CSharp_DotNET.lession.lessdion3.Students;
+﻿using Learn_CSharp_DotNET.Book.Session_7;
+using Learn_CSharp_DotNET.lession.lessdion3.Students;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,7 +27,11 @@ namespace Learn_CSharp_DotNET
 
             //lession.lessdion3.Students.Run.Test();
 
-            Lab.Lab_3.Run.Test();
+            //Lab.Lab_3.Run.Test();
+
+            //Book.Session_7.Run.Test();
+
+            Lab.Lab_4.Run.Test();
 
             //Pause:
             Console.ReadKey();
