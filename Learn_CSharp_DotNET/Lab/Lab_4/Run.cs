@@ -19,16 +19,16 @@ namespace Learn_CSharp_DotNET.Lab.Lab_4
             //Console.WriteLine();
 
 
-            int i, j = 0;
-            IndexersDemo indexersDemo = new IndexersDemo();
-            for (i = 1; i < 10; i += 2) 
-            {
-                indexersDemo[j] = i;
-                j++;
-            }
-            for(i=0;i<5;i++)
-                Console.WriteLine("indextest[{0}] is {1}",i,indexersDemo[i]);
-            Console.WriteLine();
+            //int i, j = 0;
+            //IndexersDemo indexersDemo = new IndexersDemo();
+            //for (i = 1; i < 10; i += 2) 
+            //{
+            //    indexersDemo[j] = i;
+            //    j++;
+            //}
+            //for(i=0;i<5;i++)
+            //    Console.WriteLine("indextest[{0}] is {1}",i,indexersDemo[i]);
+            //Console.WriteLine();
         }
     }
 }

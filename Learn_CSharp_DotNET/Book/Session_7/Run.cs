@@ -41,7 +41,7 @@ namespace Learn_CSharp_DotNET.Book.Session_7
 
 
             //CS7 code lai
-            //CodeSnippet_7 objAutomobiles = new CodeSnippet_7("Chassies");
+            Automobiles automobiles = new Automobiles("Chassies");
 
 
             //CS8
@@ -71,10 +71,10 @@ namespace Learn_CSharp_DotNET.Book.Session_7
             //Console.WriteLine("Area of triangle: " + CalculateArea(tbase, theight));
 
             //CS13
-            CodeSnippet_13 objRunOne = new CodeSnippet_13();
-            Console.WriteLine("Area is: "+ objRunOne.Area());
-            CodeSnippet_13 objRunTow = new CodeSnippet_13();
-            Console.WriteLine("Area is: "+objRunTow.Area());
+            //CodeSnippet_13 objRunOne = new CodeSnippet_13();
+            //Console.WriteLine("Area is: "+ objRunOne.Area());
+            //CodeSnippet_13 objRunTow = new CodeSnippet_13();
+            //Console.WriteLine("Area is: "+objRunTow.Area());
         }
     }
 }
