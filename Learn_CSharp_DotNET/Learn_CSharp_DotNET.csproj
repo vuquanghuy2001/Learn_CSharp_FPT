@@ -43,6 +43,46 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Book\Session_10\CodeSippet_14.cs" />
+    <Compile Include="Book\Session_10\CodeSnippet_10.cs" />
+    <Compile Include="Book\Session_10\CodeSnippet_11.cs" />
+    <Compile Include="Book\Session_10\CodeSnippet_12.cs" />
+    <Compile Include="Book\Session_10\CodeSnippet_13.cs" />
+    <Compile Include="Book\Session_10\CodeSnippet_15.cs" />
+    <Compile Include="Book\Session_10\CodeSnippet_16.cs" />
+    <Compile Include="Book\Session_10\CodeSnippet_17.cs" />
+    <Compile Include="Book\Session_10\CodeSnippet_18.cs" />
+    <Compile Include="Book\Session_10\CodeSnippet_19.cs" />
+    <Compile Include="Book\Session_10\CodeSnippet_20.cs" />
+    <Compile Include="Book\Session_10\CodeSnippet_3.cs" />
+    <Compile Include="Book\Session_10\CodeSnippet_4.cs" />
+    <Compile Include="Book\Session_10\CodeSnippet_5.cs" />
+    <Compile Include="Book\Session_10\CodeSnippet_6.cs" />
+    <Compile Include="Book\Session_10\CodeSnippet_7.cs" />
+    <Compile Include="Book\Session_10\CodeSnippet_8.cs" />
+    <Compile Include="Book\Session_10\CodeSnippet_9.cs" />
+    <Compile Include="Book\Session_10\Run.cs" />
+    <Compile Include="Book\Session_11\CodeSnippet_1.cs" />
+    <Compile Include="Book\Session_11\CodeSnippet_10.cs" />
+    <Compile Include="Book\Session_11\CodeSnippet_11.cs" />
+    <Compile Include="Book\Session_11\CodeSnippet_12.cs" />
+    <Compile Include="Book\Session_11\CodeSnippet_13.cs" />
+    <Compile Include="Book\Session_11\CodeSnippet_14.cs" />
+    <Compile Include="Book\Session_11\CodeSnippet_15.cs" />
+    <Compile Include="Book\Session_11\CodeSnippet_2.cs" />
+    <Compile Include="Book\Session_11\CodeSnippet_3.cs" />
+    <Compile Include="Book\Session_11\CodeSnippet_4.cs" />
+    <Compile Include="Book\Session_11\CodeSnippet_5.cs" />
+    <Compile Include="Book\Session_11\CodeSnippet_6.cs" />
+    <Compile Include="Book\Session_11\CodeSnippet_7.cs" />
+    <Compile Include="Book\Session_11\CodeSnippet_8.cs" />
+    <Compile Include="Book\Session_11\CodeSnippet_9.cs" />
+    <Compile Include="Book\Session_11\Run.cs" />
+    <Compile Include="Book\Session_11\Student2.cs" />
+    <Compile Include="Book\Session_12\CodeSnippet_2.cs" />
+    <Compile Include="Book\Session_12\CodeSnippet_3.cs" />
+    <Compile Include="Book\Session_12\CodeSnippet_4.cs" />
+    <Compile Include="Book\Session_12\CodeSnippet_5.cs" />
     <Compile Include="Book\Session_6\Code_Snippet_12.cs" />
     <Compile Include="Book\Session_6\Code_Snippet_1.cs" />
     <Compile Include="Book\Session_3\Run.cs" />
@@ -127,10 +167,16 @@
     <Compile Include="lession\lessdion3\Students.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reseach\OOP\Person.cs" />
+    <Compile Include="Reseach\OOP\Run.cs" />
+    <Compile Include="Reseach\OOP\Student.cs" />
+    <Compile Include="Reseach\OOP\Teacher.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Reseach\OOP2\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

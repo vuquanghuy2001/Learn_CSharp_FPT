@@ -8,6 +8,7 @@ namespace Learn_CSharp_DotNET.Book.Session_9
 {
     class Student
     {
+        internal Student _name;
         string[] studName = new string[2];
         public virtual string this[int index]
         {
