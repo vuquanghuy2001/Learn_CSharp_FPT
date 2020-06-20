@@ -98,6 +98,13 @@
     <Compile Include="Book\Session_12\CodeSnippet_8.cs" />
     <Compile Include="Book\Session_12\CodeSnippet_9.cs" />
     <Compile Include="Book\Session_13\CodeSnippet_1.cs" />
+    <Compile Include="Book\Session_13\CodeSnippet_2.cs" />
+    <Compile Include="Book\Session_13\CodeSnippet_3.cs" />
+    <Compile Include="Book\Session_13\CodeSnippet_4.cs" />
+    <Compile Include="Book\Session_13\CodeSnippet_5.cs" />
+    <Compile Include="Book\Session_13\CodeSnippet_6.cs" />
+    <Compile Include="Book\Session_13\CodeSnippet_7.cs" />
+    <Compile Include="Book\Session_13\CodeSnippet_8.cs" />
     <Compile Include="Book\Session_6\Code_Snippet_12.cs" />
     <Compile Include="Book\Session_6\Code_Snippet_1.cs" />
     <Compile Include="Book\Session_3\Run.cs" />
@@ -161,7 +168,15 @@
     <Compile Include="CodeLean\AP_03\Run.cs" />
     <Compile Include="CodeLean\AP_04\Run.cs" />
     <Compile Include="CodeLean\AP_05\Run.cs" />
+    <Compile Include="CodeLean\AP_06\Exception.cs" />
     <Compile Include="CodeLean\AP_06\Run.cs" />
+    <Compile Include="CodeLean\AP_06\Sum.cs" />
+    <Compile Include="CodeLean\AP_10\BusinessEmloyee.cs" />
+    <Compile Include="CodeLean\AP_10\Employee.cs" />
+    <Compile Include="CodeLean\AP_10\Run.cs" />
+    <Compile Include="CodeLean\AP_10\TechnicalEmployee.cs" />
+    <Compile Include="CodeLean\AP_11\Employee.cs" />
+    <Compile Include="CodeLean\AP_11\Run.cs" />
     <Compile Include="CodeLean\AP_15\Divide.cs" />
     <Compile Include="CodeLean\AP_16\bai_1.cs" />
     <Compile Include="CodeLean\AP_16\Bai_2.cs" />
@@ -196,6 +211,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="CodeLean\NewFolder1\" />
     <Folder Include="Reseach\OOP2\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
