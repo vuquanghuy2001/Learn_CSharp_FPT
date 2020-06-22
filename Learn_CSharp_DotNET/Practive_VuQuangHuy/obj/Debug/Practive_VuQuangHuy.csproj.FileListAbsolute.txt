@@ -1,0 +1,7 @@
+F:\hoc_tap\Learn_CSharp_FPT\Learn_CSharp_DotNET\Practive_VuQuangHuy\bin\Debug\Practive_VuQuangHuy.exe.config
+F:\hoc_tap\Learn_CSharp_FPT\Learn_CSharp_DotNET\Practive_VuQuangHuy\bin\Debug\Practive_VuQuangHuy.exe
+F:\hoc_tap\Learn_CSharp_FPT\Learn_CSharp_DotNET\Practive_VuQuangHuy\bin\Debug\Practive_VuQuangHuy.pdb
+F:\hoc_tap\Learn_CSharp_FPT\Learn_CSharp_DotNET\Practive_VuQuangHuy\obj\Debug\Practive_VuQuangHuy.csprojAssemblyReference.cache
+F:\hoc_tap\Learn_CSharp_FPT\Learn_CSharp_DotNET\Practive_VuQuangHuy\obj\Debug\Practive_VuQuangHuy.csproj.CoreCompileInputs.cache
+F:\hoc_tap\Learn_CSharp_FPT\Learn_CSharp_DotNET\Practive_VuQuangHuy\obj\Debug\Practive_VuQuangHuy.exe
+F:\hoc_tap\Learn_CSharp_FPT\Learn_CSharp_DotNET\Practive_VuQuangHuy\obj\Debug\Practive_VuQuangHuy.pdb
