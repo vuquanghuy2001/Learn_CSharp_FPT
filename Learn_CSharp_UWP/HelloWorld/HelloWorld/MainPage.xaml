@@ -8,8 +8,9 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Margin="-212,0,0,0">
-        <Button Content="hello teacher" Margin="703,437,0,0" VerticalAlignment="Top" Height="129" Width="237" Click="Button_Click"/>
+	<Grid Margin="-212,0,0,0">
+		<Button Name="ClickMeButton" Content="click me" Margin="703,437,0,0" VerticalAlignment="Top" Height="100" Width="256" Click="Button_Click" FontSize="40"/>
+		<TextBlock HorizontalAlignment="Left" Margin="1091,437,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="93" Width="408" FontSize="48" SelectionChanged="TextBlock_SelectionChanged"/>
 
-    </Grid>
+	</Grid>
 </Page>

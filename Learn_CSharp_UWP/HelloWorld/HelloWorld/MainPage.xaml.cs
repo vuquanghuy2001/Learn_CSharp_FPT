@@ -35,5 +35,10 @@ namespace HelloWorld
             mediaElement.SetSource(stream, stream.ContentType);
             mediaElement.Play();
         }
+
+        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
