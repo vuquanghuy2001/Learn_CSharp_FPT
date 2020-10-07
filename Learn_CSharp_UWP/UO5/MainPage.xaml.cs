@@ -29,18 +29,18 @@ namespace UO5
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
-            //    Button myButton = new Button();
-            //    myButton.Name = "ClickMeButton";
-            //    myButton.Content = "Click Me";
-            //    myButton.Width = 200;
-            //    myButton.Height = 100;
-            //    myButton.Margin = new Thickness(20, 20, 0, 0);
-            //    myButton.HorizontalAlignment = HorizontalAlignment.Left;
-            //    myButton.VerticalAlignment = VerticalAlignment.Top;
+            //button mybutton = new button();
+            //mybutton.name = "clickmebutton";
+            //mybutton.content = "click me";
+            //mybutton.width = 200;
+            //mybutton.height = 100;
+            //mybutton.margin = new thickness(20, 20, 0, 0);
+            //mybutton.horizontalalignment = horizontalalignment.left;
+            //mybutton.verticalalignment = verticalalignment.top;
 
-            //    myButton.Background = new SolidColorBrush(Windows.UI.Colors.Red);
-            //    myButton.Click += ClickMeButton_Click;
-            //    LayoutGrid.Children.Add(myButton);
+            //mybutton.background = new solidcolorbrush(windows.ui.colors.red);
+            //mybutton.click += clickmebutton_click;
+            //layoutgrid.children.add(mybutton);
         }
     }
 }
