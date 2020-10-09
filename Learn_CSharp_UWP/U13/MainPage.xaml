@@ -17,7 +17,7 @@
                     inner TextBlocks, Set the FontSize of the outer TextBlock
                 </TextBlock>
                 <TextBlock Width="500" TextWrapping="Wrap" Margin="0,0,20,0" FontSize="20">
-                    Important: Use the TextBlock’s TextWrapping property to allow the Lorem Ipsum text to wrap properly.
+                    Important: Use the TextBlock’7s TextWrapping property to allow the Lorem Ipsum text to wrap properly.
                     If you don't set the TextWrapping property equal to Wrap then you're only going to see the first line of
                     the Lorem Ipsum in each of your TextBlocks.
                 </TextBlock>
