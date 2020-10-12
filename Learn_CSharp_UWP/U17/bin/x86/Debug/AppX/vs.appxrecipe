@@ -30,13 +30,13 @@
     <AppXManifest Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U17\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-09T02:49:14.317</Modified>
+      <Modified>2020-10-10T03:24:46.313</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U17\bin\x86\Debug\U17.exe">
       <PackagePath>entrypoint\U17.exe</PackagePath>
-      <Modified>2020-10-09T02:49:13.519</Modified>
+      <Modified>2020-10-10T03:24:45.946</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -94,7 +94,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U17\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-09T02:49:13.253</Modified>
+      <Modified>2020-10-10T03:24:45.821</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -106,7 +106,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U17\bin\x86\Debug\Core\U17.exe">
       <PackagePath>U17.exe</PackagePath>
-      <Modified>2020-10-09T02:49:14.273</Modified>
+      <Modified>2020-10-10T03:24:46.309</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

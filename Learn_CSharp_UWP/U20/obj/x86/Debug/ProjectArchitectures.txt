@@ -1,1 +1,1 @@
-C:\Users\Hieu_iceTea\source\repos\U20\U20.csproj;x86
+E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U20\U20.csproj;x86

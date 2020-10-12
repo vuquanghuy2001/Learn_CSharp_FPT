@@ -19,6 +19,7 @@
       <RootEvent Name="Navigated" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Name" />
       <RootProperty Name="Content" />
       <RootProperty Name="Margin" />
       <RootEvent Name="Click" />
@@ -27,9 +28,6 @@
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="FontSize" />
       <RootProperty Name="Text" />
-      <RootProperty Name="Name" />
-      <RootProperty Name="Width" />
-      <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
       <RootProperty Name="FontSize" />

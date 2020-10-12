@@ -10,9 +10,9 @@
 
     <Grid>
         <StackPanel Orientation="Horizontal">
-            <Button Content="Home" Click="HomeButton_Click" Margin="0,0,20,0"/>
-            <Button Content="Back" Click="BackButton_Click" Margin="0,0,20,0"/>
-            <Button Content="Forward" Click="ForwardButton_Click" Margin="0,0,20,0"/>
+            <Button Name="Home" Content="Home" Click="HomeButton_Click" Margin="0,0,20,0"/>
+            <Button Name="Back" Content="Back" Click="BackButton_Click" Margin="0,0,20,0"/>
+            <Button Name="Forward" Content="Forward" Click="ForwardButton_Click" Margin="0,0,20,0"/>
         </StackPanel>
         <Frame Name="MyFrame" Navigated="MyFrame_Navigated">
             

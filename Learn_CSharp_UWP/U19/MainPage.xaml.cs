@@ -10,7 +10,7 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media;    
 using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
@@ -28,6 +28,11 @@ namespace U19
             MyFrame.Navigate(typeof(Page1));
         }
 
+        private void HomeButton_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Navigate(typeof(Page1));
+        }
+
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
             if (MyFrame.CanGoBack)
@@ -36,12 +41,7 @@ namespace U19
             }
         }
 
-        private void HomeButton_Click(object sender, RoutedEventArgs e)
-        {
-            MyFrame.Navigate(typeof(Page1));
-        }
-
-        private void ForwarButton_Click(object sender, RoutedEventArgs e)
+        private void ForwardButton_Click(object sender, RoutedEventArgs e)
         {
             if (MyFrame.CanGoForward)
             {
@@ -49,9 +49,32 @@ namespace U19
             }
         }
 
-        private void MyFrame_Navigated(object sender, NavigationEventArgs e)
-        {
-            MyFrame.Navigate(typeof(Page1));
-        }
+        //private void BackButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    if (MyFrame.CanGoBack)
+        //    {
+        //        MyFrame.GoBack();
+        //    }
+        //}
+
+        //private void HomeButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    MyFrame.Navigate(typeof(Page1));
+        //}
+
+        //private void MyFrame_Navigated(object sender, NavigationEventArgs e)
+        //{
+        //    MyFrame.Navigate(typeof(Page1));
+        //}
+
+        //private void ForwardButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    if (MyFrame.CanGoForward)
+        //    {
+        //        MyFrame.GoForward();
+        //    }
+        //}
+
+
     }
 }

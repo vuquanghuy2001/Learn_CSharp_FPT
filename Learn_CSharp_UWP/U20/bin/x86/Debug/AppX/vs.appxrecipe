@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>b83526dc-b904-487b-aa5e-69ca12d3c527</PackageIdentityName>
     <PackageIdentityPublisher>CN=Hieu_iceTea</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Hieu_iceTea\source\repos\U20\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U20\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Hieu_iceTea\source\repos\U20\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U20\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>3726A2EC63A2C7C0BD989A103410B5A2AFA281F210E6592EB9CECFAB29025FE7</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>b83526dc-b904-487b-aa5e-69ca12d3c527_1.0.0.0_x86__w1ra8hhkt16bg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>b83526dc-b904-487b-aa5e-69ca12d3c527_w1ra8hhkt16bg!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Hieu_iceTea\source\repos\U20\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U20\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-09T14:35:15.297</Modified>
+      <Modified>2020-10-10T03:58:17.958</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Hieu_iceTea\source\repos\U20\bin\x86\Debug\U20.exe">
+    <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U20\bin\x86\Debug\U20.exe">
       <PackagePath>entrypoint\U20.exe</PackagePath>
-      <Modified>2020-10-09T14:35:14.920</Modified>
+      <Modified>2020-10-10T03:58:17.431</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,67 +46,67 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T11:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hieu_iceTea\source\repos\U20\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U20\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2020-10-09T09:31:45.017</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hieu_iceTea\source\repos\U20\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U20\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2020-10-01T02:24:19.039</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hieu_iceTea\source\repos\U20\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U20\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-10-01T02:24:19.044</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hieu_iceTea\source\repos\U20\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U20\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-10-01T02:24:19.045</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hieu_iceTea\source\repos\U20\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U20\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-10-01T02:24:19.046</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hieu_iceTea\source\repos\U20\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U20\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-10-01T02:24:19.048</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hieu_iceTea\source\repos\U20\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U20\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-10-01T02:24:19.049</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hieu_iceTea\source\repos\U20\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U20\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-10-01T02:24:19.050</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hieu_iceTea\source\repos\U20\bin\x86\Debug\U20.xr.xml">
+    <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U20\bin\x86\Debug\U20.xr.xml">
       <PackagePath>U20.xr.xml</PackagePath>
       <Modified>2020-10-09T14:33:20.274</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hieu_iceTea\source\repos\U20\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U20\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-09T14:33:39.409</Modified>
+      <Modified>2020-10-10T03:58:17.312</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hieu_iceTea\source\repos\U20\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U20\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-09T14:33:39.409</Modified>
+      <Modified>2020-10-10T03:58:17.312</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T10:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hieu_iceTea\source\repos\U20\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U20\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <Modified>2020-10-09T13:53:15.925</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hieu_iceTea\source\repos\U20\bin\x86\Debug\Core\U20.exe">
+    <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U20\bin\x86\Debug\Core\U20.exe">
       <PackagePath>U20.exe</PackagePath>
-      <Modified>2020-10-09T14:35:15.293</Modified>
+      <Modified>2020-10-10T03:58:17.941</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

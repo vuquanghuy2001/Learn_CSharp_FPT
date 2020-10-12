@@ -45,5 +45,10 @@ namespace U20
             var item = (ComboBox)combo.SelectedItem;
             ComboboxResultTextBlock.Text = item.VerticalContentAlignment.ToString();
         }
+
+        private void MyToggleButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
