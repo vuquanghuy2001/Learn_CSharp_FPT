@@ -25,6 +25,27 @@ namespace U031
         public MainPage()
         {
             this.InitializeComponent();
+            myFrame.Navigate(typeof(DonutPage));
+        }
+
+        private void DonutButton_Click(object sender, RoutedEventArgs e)
+        {
+            myFrame.Navigate(typeof(DonutPage));
+        }
+
+        private void CoffeeButton_Click(object sender, RoutedEventArgs e)
+        {
+            myFrame.Navigate(typeof(CoffeePage));
+        }
+
+        private void ScheduleButton_Button(object sender, RoutedEventArgs e)
+        {
+            myFrame.Navigate(typeof(SchedulePage));
+        }
+
+        private void CompleteButton_Click(object sender, RoutedEventArgs e)
+        {
+            myFrame.Navigate(typeof(CompletePage));
         }
     }
 }

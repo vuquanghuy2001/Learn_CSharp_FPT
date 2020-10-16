@@ -1,0 +1,9 @@
+C:\Users\Hieu_iceTea\source\repos\U040\obj\x86\Debug\U040.csprojAssemblyReference.cache
+C:\Users\Hieu_iceTea\source\repos\U040\obj\x86\Debug\App.g.i.cs
+C:\Users\Hieu_iceTea\source\repos\U040\obj\x86\Debug\App.g.cs
+C:\Users\Hieu_iceTea\source\repos\U040\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\Hieu_iceTea\source\repos\U040\obj\x86\Debug\MainPage.g.cs
+C:\Users\Hieu_iceTea\source\repos\U040\obj\x86\Debug\App.xaml
+C:\Users\Hieu_iceTea\source\repos\U040\obj\x86\Debug\MainPage.xaml
+C:\Users\Hieu_iceTea\source\repos\U040\obj\x86\Debug\App.xbf
+C:\Users\Hieu_iceTea\source\repos\U040\obj\x86\Debug\MainPage.xbf
