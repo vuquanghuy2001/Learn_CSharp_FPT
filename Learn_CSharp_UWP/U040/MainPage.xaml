@@ -18,9 +18,11 @@
         <GridView ItemsSource="{x:Bind Books}">
             <GridView.ItemTemplate>
                 <DataTemplate x:DataType="data:Book">
-                    <Image Width="150" Source="{x:Bind CoverImage}"/>
-                    <TextBlock FontSize="16" Text="{x:Bind Title}"/>
-                    <TextBlock FontSize="10" Text="{x:Bind Author}"/>
+                    <StackPanel>
+                        <Image Width="150" Source="{x:Bind CoverImage}"/>
+                        <TextBlock FontSize="16" Text="{x:Bind Title}"/>
+                        <TextBlock FontSize="10" Text="{x:Bind Author}"/>
+                    </StackPanel>
                 </DataTemplate>
             </GridView.ItemTemplate>
         </GridView>

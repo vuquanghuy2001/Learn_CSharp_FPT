@@ -8157,11 +8157,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hieu_iceTea\\source\\repos\\U038\\U038.csproj",
+      "projectUniqueName": "E:\\Hoc_Tap\\Learn_CSharp_FPT\\Learn_CSharp_UWP\\U038\\U038.csproj",
       "projectName": "U038",
-      "projectPath": "C:\\Users\\Hieu_iceTea\\source\\repos\\U038\\U038.csproj",
+      "projectPath": "E:\\Hoc_Tap\\Learn_CSharp_FPT\\Learn_CSharp_UWP\\U038\\U038.csproj",
       "packagesPath": "C:\\Users\\Hieu_iceTea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hieu_iceTea\\source\\repos\\U038\\obj\\",
+      "outputPath": "E:\\Hoc_Tap\\Learn_CSharp_FPT\\Learn_CSharp_UWP\\U038\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

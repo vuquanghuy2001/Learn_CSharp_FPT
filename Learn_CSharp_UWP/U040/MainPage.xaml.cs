@@ -27,7 +27,7 @@ namespace U040
         public MainPage()
         {
             this.InitializeComponent();
-            Books = BookManager.GetBooks;
+            Books = BookManager.GetBooks();
         }
     }
 }
