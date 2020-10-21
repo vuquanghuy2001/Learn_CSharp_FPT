@@ -44,13 +44,13 @@ namespace U041
 
         private void NewContactButton_Click(object sender, RoutedEventArgs e)
         {
-            string avatar = ((Icon)AvatarCombobox.SelectedValue).IconPath;
+            string avatar = ((Icon)AvatarComboBox.SelectedValue).IconPath;
             Contacts.Add(new Contact { FirstName = FirstNameTextBox.Text ,
                 LastName = LastNameTextBox.Text, Avatar = avatar});
 
         FirstNameTextBox.Text="";
         LastNameTextBox.Text="";
-        AvatarCombobox.SelectedIndex=-1;
+        AvatarComboBox.SelectedIndex=-1;
 
             FirstNameTextBox.Focus(FocusState.Programmatic);
         }

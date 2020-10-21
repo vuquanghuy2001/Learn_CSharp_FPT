@@ -5,6 +5,7 @@
     xmlns:local="using:U044"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:U044.Models"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
@@ -71,15 +72,30 @@
                 </ListBox>
             </SplitView.Pane>
             <SplitView.Content>
-                <GridView Name="NewsItemGrid" HorizontalAlignment="Stretch"
+                <GridView Name="NewsItemGrid"
+                          ItemsSource="{x:Bind NewsItems}"
+                          HorizontalAlignment="Stretch"
                           Margin="10,0,0,0">
                     <GridView.ItemTemplate>
-                        <DataTemplate>
+                        <DataTemplate x:DataType="data:NewsItem">
                             
                         </DataTemplate>
                     </GridView.ItemTemplate>
                 </GridView>
             </SplitView.Content>
         </SplitView>
+
+        <Grid Background="White" Margin="10" Height="275" Width="200">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Image Name="MyImage" Source="{x:Bind NewsItems.Image}"/>
+            <RelativePanel Grid.Row="1">
+                <TextBlock Text="{x:Bind NewsItems.HeadLine}"/>
+                <TextBlock Text="{x:Bind NewsItems.SubHead}"/>
+                <TextBlock Text="{x:Bind NewsItems.DateLine}"/>
+            </RelativePanel>
+        </Grid>
     </Grid>
 </Page>
