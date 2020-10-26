@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="Black">
+    <Grid>
         <!--<Button>
             <TextBlock>Hi</TextBlock>
             <Image Source="D:\Quang Huy\Pictures\Screenshots\Ảnh chụp màn hình (1).png">
@@ -33,7 +33,7 @@
         <Rectangle Fill="Blue" Grid.Row="1" Margin="0,77,0,0" Grid.RowSpan="2"/>
         <Rectangle Fill="Green" Grid.Row="3"/>-->
 
-        <Grid.RowDefinitions>
+        <!--<Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
@@ -54,7 +54,40 @@
 
         <TextBlock Grid.Row="2">7</TextBlock>
         <TextBlock Grid.Row="2" Grid.Column="1">8</TextBlock>
-        <TextBlock Grid.Row="2" Grid.Column="2">9</TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="2">9</TextBlock>-->
+
+        <!--<Rectangle Fill="Blue" 
+                   Height="100"
+                   Width="100"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"/>-->
+        <!--<StackPanel>
+            <StackPanel>
+                <TextBlock>First</TextBlock>
+                <TextBlock>Second</TextBlock>
+                <TextBlock>Third</TextBlock>
+                <StackPanel Orientation="Horizontal">
+                    
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Height="200">
+                <Rectangle Fill="Red" Height="100"/>
+            </StackPanel>
+        </StackPanel>-->
+
+        <StackPanel>
+            <TextBlock>First</TextBlock>
+            <TextBlock>Second</TextBlock>
+            <TextBlock>Third</TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>First</TextBlock>
+                <TextBlock>Second</TextBlock>
+                <TextBlock>Third</TextBlock>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Height="200">
+            <Rectangle Fill="Red" Height="100"/>
+        </StackPanel>
     </Grid>
 </Page>
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q124fPgUXd9ctYLtsc3Ic1nfhKhoN1Y8DO3YhoBtZNejeLFgODvsebYtwaPqnOK+KTTtzvYmv5HCDva0r5CgmQ==",
+  "dgSpecHash": "ai6DzG5HSj5fpj2xS4KLHHHAYbfPORUE3vJZT2Na2YSG4VYBgWlY0rtgnYJfn1ogHTjlLKvy/0xzR0Wgnx0SNA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hieu_iceTea\\source\\repos\\U049\\U049.csproj",
+  "projectFilePath": "E:\\Hoc_Tap\\Learn_CSharp_FPT\\Learn_CSharp_UWP\\U049\\U049.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",

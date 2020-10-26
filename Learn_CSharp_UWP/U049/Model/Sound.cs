@@ -18,7 +18,7 @@ namespace U049.Model
             Name = name;
             Category = category;
             AudioFile= string.Format("/Assets/Audio/{0}/{1}.wav", category, name);
-            ImageFile = string.Format("/Assets/Image/{0}/{1}.png", category, name);
+            ImageFile = string.Format("/Assets/Images/{0}/{1}.png", category, name);
         }
     }
 

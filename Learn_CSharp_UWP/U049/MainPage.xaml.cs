@@ -126,7 +126,7 @@ namespace U049
         private void SoundGridView_ItemClick(object sender, ItemClickEventArgs e)
         {
             var sound = (Sound)e.ClickedItem;
-            //MyMediaElement.Source = new Uri(this.BaseUri, Sound.AudioFile);
+            MyMediaElement.Source = new Uri(this.BaseUri, sound.AudioFile);
         }
 
         private void goBack()
