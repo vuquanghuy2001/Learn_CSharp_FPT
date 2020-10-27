@@ -40,7 +40,7 @@
                 </ComboBox.ItemTemplate>
             </ComboBox>
             <Button Grid.Row="3" Grid.ColumnSpan="1" Name="NewProductButton"
-                    Click="NewProductButton_Click" Content="Add" Margin="10"/>
+                    Click="NewProductButton_Click" Content="ORDER" Margin="10"/>
         </Grid>
 
         <GridView Grid.Row="1" ItemsSource="{x:Bind Products}" Margin="20">
