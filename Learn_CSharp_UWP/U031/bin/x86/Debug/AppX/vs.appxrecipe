@@ -30,13 +30,13 @@
     <AppXManifest Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U031\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-15T14:12:08.377</Modified>
+      <Modified>2020-10-26T08:51:31.116</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U031\bin\x86\Debug\U031.exe">
       <PackagePath>entrypoint\U031.exe</PackagePath>
-      <Modified>2020-10-15T14:12:07.141</Modified>
+      <Modified>2020-10-26T08:51:30.342</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -90,27 +90,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U031\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-15T14:12:06.711</Modified>
+      <Modified>2020-10-26T08:51:30.195</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U031\bin\x86\Debug\CoffeePage.xbf">
       <PackagePath>CoffeePage.xbf</PackagePath>
-      <Modified>2020-10-15T14:12:06.712</Modified>
+      <Modified>2020-10-26T08:51:30.195</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U031\bin\x86\Debug\CompletePage.xbf">
       <PackagePath>CompletePage.xbf</PackagePath>
-      <Modified>2020-10-15T14:12:06.712</Modified>
+      <Modified>2020-10-26T08:51:30.195</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U031\bin\x86\Debug\DonutPage.xbf">
       <PackagePath>DonutPage.xbf</PackagePath>
-      <Modified>2020-10-15T14:12:06.712</Modified>
+      <Modified>2020-10-26T08:51:30.195</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U031\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-15T14:12:06.712</Modified>
+      <Modified>2020-10-26T08:51:30.195</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U031\bin\x86\Debug\SchedulePage.xbf">
       <PackagePath>SchedulePage.xbf</PackagePath>
-      <Modified>2020-10-15T14:12:06.713</Modified>
+      <Modified>2020-10-26T08:51:30.195</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -122,7 +122,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Hoc_Tap\Learn_CSharp_FPT\Learn_CSharp_UWP\U031\bin\x86\Debug\Core\U031.exe">
       <PackagePath>U031.exe</PackagePath>
-      <Modified>2020-10-15T14:12:08.367</Modified>
+      <Modified>2020-10-26T08:51:31.094</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

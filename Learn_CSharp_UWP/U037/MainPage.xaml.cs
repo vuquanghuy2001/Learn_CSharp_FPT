@@ -26,5 +26,10 @@ namespace U037
         {
             this.InitializeComponent();
         }
+
+        private void MessageTextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
