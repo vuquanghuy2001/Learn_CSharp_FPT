@@ -6,7 +6,7 @@ using Lab01ASP.Models;
 
 namespace Lab01ASP.Models
 {
-    public class ShoppingCartActions:IDisposable
+    public class ShoppingCartActions : IDisposable
     {
         public string ShoppingCartId { get; set; }
         private ProductContext _db = new ProductContext();
@@ -27,11 +27,11 @@ namespace Lab01ASP.Models
                     CartId = ShoppingCartId,
                     Product = _db.Products.SingleOrDefault(
                         p => p.ProductID == id),
-                        Quantity = 1,
-                        DateCreated = DateTime.Now
-                        };
+                    Quantity = 1,
+                    DateCreated = DateTime.Now
+                };
                 _db.ShoppingCartItems.Add(cartItem);
-                }
+            }
             else
             {
                 cartItem.Quantity++;
@@ -78,6 +78,121 @@ namespace Lab01ASP.Models
                                select (int?)cartItems.Quantity *
                                cartItems.Product.UnitPrice).Sum();
             return total ?? decimal.Zero;
+        }
+
+
+
+        public ShoppingCartActions GetCart(HttpContext context)
+        {
+            using (var cart = new ShoppingCartActions())
+            {
+                cart.ShoppingCartId = cart.GetCartId();
+                return cart;
+            }
+        }
+
+        public void UpdateShoppingCartDatabase(String cartId, ShoppingcartUpdates[] CartItemUpdates)
+        {
+            using (var db = new Lab01ASP.Models.ProductContext())
+            {
+                try
+                {
+                    int CartItemCount = CartItemUpdates.Count();
+                    List<CartItem> myCart = GetCartItems();
+                    foreach (var CartItem in myCart)
+                    {
+
+                        for (int i = 0; i < CartItemCount; i++)
+                        {
+                            if (CartItem.Product.ProductID == CartItemUpdates[i].ProductId)
+                            {
+                                if (CartItemUpdates[i].PurchaseQuantity < 1 || CartItemUpdates[i].RemoveItem == true)
+                                {
+                                    RemoveItem(cartId, CartItem.ProductId);
+                                }
+                                else
+                                {
+                                    UpdateItem(cartId, CartItem.ProductId, CartItemUpdates[i].PurchaseQuantity);
+                                }
+                            }
+                        }
+                    }
+                }
+                catch (Exception exp)
+                {
+                    throw new Exception("ERROR: Unable to Update Cart Database - " + exp.Message.ToString(), exp);
+                }
+            }
+        }
+
+        public void RemoveItem(string removeCartID, int removeProductID)
+        {
+            using (var _db = new Lab01ASP.Models.ProductContext())
+            {
+                try
+                {
+                    var myItem = (from c in _db.ShoppingCartItems
+                                  where c.CartId == removeCartID && c.Product.ProductID == removeProductID
+                                  select c).FirstOrDefault();
+                    if (myItem != null)
+                    {
+                        _db.ShoppingCartItems.Remove(myItem);
+                        _db.SaveChanges();
+                    }
+                }
+                catch (Exception exp)
+                {
+                    throw new Exception("ERROR: Unable to Remove Cart Item - " + exp.Message.ToString(), exp);
+                }
+            }
+        }
+
+        public void EmptyCart()
+        {
+            ShoppingCartId = GetCartId();
+            var cartItems = _db.ShoppingCartItems.Where(
+                c => c.CartId == ShoppingCartId
+                );
+            foreach (var cartItem in cartItems)
+            {
+                _db.ShoppingCartItems.Remove(cartItem);
+            }
+            _db.SaveChanges();
+        }
+        public int GetCount()
+        {
+            ShoppingCartId = GetCartId();
+
+            int? count = (from CartItems in _db.ShoppingCartItems
+                          where CartItems.CartId == ShoppingCartId
+                          select (int?)CartItems.Quantity).Sum();
+            return count ?? 0;
+        }
+        public struct ShoppingcartUpdates
+        {
+            public int ProductId;
+            public int PurchaseQuantity;
+            public bool RemoveItem;
+        }
+
+
+
+        public void UpdateItem(string updateCartID, int updateProductID, int quantity)
+        {
+            using (var _db = new Lab01ASP.Models.ProductContext())
+            {
+                try
+                {
+                    var myItem = (from c in _db.ShoppingCartItems where c.CartId == updateCartID && c.Product.ProductID == updateProductID select c).FirstOrDefault();
+                    if (myItem != null)
+                    {
+                        myItem.Quantity = quantity; _db.SaveChanges();
+                    }
+                }
+                catch (Exception exp) {
+                    throw new Exception("ERROR: Unable to Update Cart Item - " + exp.Message.ToString(), exp);
+                }
+            }
         }
     }
 }
