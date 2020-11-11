@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DammioMVC", "DammioMVC.csproj", "{04B0031F-F973-4757-A42A-3767772624DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04B0031F-F973-4757-A42A-3767772624DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B0031F-F973-4757-A42A-3767772624DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B0031F-F973-4757-A42A-3767772624DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B0031F-F973-4757-A42A-3767772624DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DB5EEB5-E2BF-4642-B209-A1D7BE47BAB7}
+	EndGlobalSection
+EndGlobal

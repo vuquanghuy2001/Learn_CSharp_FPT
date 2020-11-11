@@ -38,7 +38,7 @@ namespace MVC_Moves
 
             routes.MapRoute(
                 name: "MyStyle",
-                url: "{controller}/{action}/{name}/{numtimes}/{id}"
+                url: "{controller}/{action}/{name}/{numtimes}"
             );
         }
     }

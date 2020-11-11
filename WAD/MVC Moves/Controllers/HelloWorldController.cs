@@ -31,9 +31,9 @@ namespace MVC_Moves.Controllers
         //    return HttpUtility.HtmlEncode("Hello " + name + " ID: " + ID);
         //}
 
-        public ActionResult Welcome(string name,int numtimes=1, int a = 1)
+        public ActionResult Welcome(string name,int numtimes=1)
         {
-            ViewBag.Message = "Hello " + name + numtimes + a;
+            ViewBag.Message = "Hello " + name + " " + numtimes;
             ViewBag.numtimes = numtimes;
             return View();
         }
