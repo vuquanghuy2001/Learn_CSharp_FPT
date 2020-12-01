@@ -1,0 +1,84 @@
+﻿@page
+@model Pizza.Pages.Products.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Products[0].ProductName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Products[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Products[0].Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Products[0].Location)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Products[0].PriceSizeS)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Products[0].PriceSizeL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Products[0].PriceSizeXL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Products[0].Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Products[0].UrlImage)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Products) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Location)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PriceSizeS)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PriceSizeL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PriceSizeXL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Image)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UrlImage)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ProductID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ProductID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ProductID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

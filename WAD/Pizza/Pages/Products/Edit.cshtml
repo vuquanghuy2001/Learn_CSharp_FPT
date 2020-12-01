@@ -1,0 +1,75 @@
+﻿@page
+@model Pizza.Pages.Products.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Products</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Products.ProductID" />
+            <div class="form-group">
+                <label asp-for="Products.ProductName" class="control-label"></label>
+                <input asp-for="Products.ProductName" class="form-control" />
+                <span asp-validation-for="Products.ProductName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Products.Description" class="control-label"></label>
+                <input asp-for="Products.Description" class="form-control" />
+                <span asp-validation-for="Products.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Products.Status" class="control-label"></label>
+                <input asp-for="Products.Status" class="form-control" />
+                <span asp-validation-for="Products.Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Products.Location" class="control-label"></label>
+                <input asp-for="Products.Location" class="form-control" />
+                <span asp-validation-for="Products.Location" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Products.PriceSizeS" class="control-label"></label>
+                <input asp-for="Products.PriceSizeS" class="form-control" />
+                <span asp-validation-for="Products.PriceSizeS" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Products.PriceSizeL" class="control-label"></label>
+                <input asp-for="Products.PriceSizeL" class="form-control" />
+                <span asp-validation-for="Products.PriceSizeL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Products.PriceSizeXL" class="control-label"></label>
+                <input asp-for="Products.PriceSizeXL" class="form-control" />
+                <span asp-validation-for="Products.PriceSizeXL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Products.Image" class="control-label"></label>
+                <input asp-for="Products.Image" class="form-control" />
+                <span asp-validation-for="Products.Image" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Products.UrlImage" class="control-label"></label>
+                <input asp-for="Products.UrlImage" class="form-control" />
+                <span asp-validation-for="Products.UrlImage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
