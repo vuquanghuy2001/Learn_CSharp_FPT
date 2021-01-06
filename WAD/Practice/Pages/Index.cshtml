@@ -9,16 +9,13 @@
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
 
-<!-- Photo Grid-->
-<div class="w3-row-padding w3-padding-16 w3-center">
-    <div class="row">
-        @foreach (var product in Model.Products)
-        {
-            <div class="col-md-3 col-sm-6 col-12">
-                <img src="@product.Image" alt="hihi" style="height:400px">
-                <h3>@product.Name</h3>
-                <p>@product.Price $</p>
-            </div>
-        }
-    </div>
+<div class="row">
+    @foreach (var product in Model.Products)
+    {
+        <div class="col-md-3 col-sm-6 col-12">
+            <img src="@product.Image" alt="hihi" style="height:400px">
+            <h3>@product.Name</h3>
+            <p>@product.Price $</p>
+        </div>
+    }
 </div>
