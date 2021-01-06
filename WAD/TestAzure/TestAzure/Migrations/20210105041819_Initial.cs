@@ -13,9 +13,8 @@ namespace TestAzure.Migrations
                     ProductID = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Price = table.Column<decimal>(type: "decimal(8,2)", nullable: false),
-                    Category = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                   
+                    Price = table.Column<decimal>(type: "decimal(8,2)", nullable: false)
                 },
                 constraints: table =>
                 {

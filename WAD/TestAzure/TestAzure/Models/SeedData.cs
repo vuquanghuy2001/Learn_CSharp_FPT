@@ -26,71 +26,19 @@ namespace TestAzure.Models
                 context.Products.AddRange(
                     new Product
                     {
-                        Name="Kayak", Description="A boat for one person",
-                        Category="Watersports", Price=275
+                        Name="Lamboghini", Price=375
                     },
                     new Product
                     {
-                        Name = "Lifejacket",
-                        Description = "protective and fashionable",
-                        Category = "C",
-                        Price = 275
+                        Name = "Ferari",
+                       
+                        Price = 400
                     },
                     new Product
                     {
-                        Name = "Kayak",
-                        Description = "A boat for one person",
-                        Category = "Watersports",
-                        Price = 275
-                    },
-                    new Product
-                    {
-                        Name = "Kayak",
-                        Description = "A boat for one person",
-                        Category = "Watersports",
-                        Price = 275
-                    },
-                    new Product
-                    {
-                        Name = "Kayak",
-                        Description = "A boat for one person",
-                        Category = "Watersports",
-                        Price = 275
-                    },
-                    new Product
-                    {
-                        Name = "Kayak",
-                        Description = "A boat for one person",
-                        Category = "Watersports",
-                        Price = 275
-                    },
-                    new Product
-                    {
-                        Name = "Kayak",
-                        Description = "A boat for one person",
-                        Category = "Watersports",
-                        Price = 275
-                    },
-                    new Product
-                    {
-                        Name = "Kayak",
-                        Description = "A boat for one person",
-                        Category = "Watersports",
-                        Price = 275
-                    },
-                    new Product
-                    {
-                        Name = "Kayak",
-                        Description = "A boat for one person",
-                        Category = "Watersports",
-                        Price = 275
-                    },
-                    new Product
-                    {
-                        Name = "Kayak",
-                        Description = "A boat for one person",
-                        Category = "Watersports",
-                        Price = 275
+                        Name = "Lexus",
+                       
+                        Price = 175
                     }
                     );
                 context.SaveChanges();

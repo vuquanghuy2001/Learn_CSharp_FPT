@@ -24,13 +24,7 @@ namespace TestAzure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bigint")
                         .UseIdentityColumn();
-
-                    b.Property<string>("Category")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
-
+                   
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
