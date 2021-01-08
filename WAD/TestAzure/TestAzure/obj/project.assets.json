@@ -5740,11 +5740,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hieu_iceTea\\Desktop\\TestAzure\\TestAzure\\TestAzure.csproj",
+      "projectUniqueName": "E:\\Hoc_Tap\\Learn_CSharp_FPT\\WAD\\TestAzure\\TestAzure\\TestAzure.csproj",
       "projectName": "TestAzure",
-      "projectPath": "C:\\Users\\Hieu_iceTea\\Desktop\\TestAzure\\TestAzure\\TestAzure.csproj",
+      "projectPath": "E:\\Hoc_Tap\\Learn_CSharp_FPT\\WAD\\TestAzure\\TestAzure\\TestAzure.csproj",
       "packagesPath": "C:\\Users\\Hieu_iceTea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hieu_iceTea\\Desktop\\TestAzure\\TestAzure\\obj\\",
+      "outputPath": "E:\\Hoc_Tap\\Learn_CSharp_FPT\\WAD\\TestAzure\\TestAzure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hieu_iceTea\\AppData\\Roaming\\NuGet\\NuGet.Config",

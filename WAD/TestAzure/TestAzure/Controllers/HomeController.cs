@@ -7,32 +7,28 @@ using System.Linq;
 using System.Threading.Tasks;
 using TestAzure.Models;
 
+
 namespace TestAzure.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index() => View();
-        //private readonly ILogger<HomeController> _logger;
 
-        //public HomeController(ILogger<HomeController> logger)
-        //{
-        //    _logger = logger;
-        //}
+        private TAzureRepository repository;
+        public int PageSize = 4;
+        public HomeController(TAzureRepository repo)
+        {
+            repository = repo;
+        }
 
-        //public IActionResult Index()
-        //{
-        //    return View();
-        //}
+        //public IActionResult Index() => View(repository.Products);
 
-        //public IActionResult Privacy()
-        //{
-        //    return View();
-        //}
+        public ViewResult Index(int productPage=1)
+            => View(repository.Products
+                .OrderBy(p => p.ProductID)
+            .Skip((productPage-1)*PageSize)
+                .Take(PageSize)
+            );
 
-        //[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        //public IActionResult Error()
-        //{
-        //    return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        //}
+        //localhost:2001/?productPage=2
     }
 }

@@ -36,9 +36,70 @@ namespace TestAzure.Models
                     },
                     new Product
                     {
+                        Name = "Ferari",
+
+                        Price = 400
+                    },
+                    new Product
+                    {
+                        Name = "Ferari",
+
+                        Price = 400
+                    },
+                    new Product
+                    {
+                        Name = "Ferari",
+
+                        Price = 400
+                    },
+                    new Product
+                    {
+                        Name = "Ferari",
+
+                        Price = 400
+                    },
+                    new Product
+                    {
+                        Name = "Ferari",
+
+                        Price = 400
+                    },
+                    new Product
+                    {
+                        Name = "Ferari",
+
+                        Price = 400
+                    },
+                    new Product
+                    {
+                        Name = "Ferari",
+
+                        Price = 400
+                    },
+                    new Product
+                    {
+                        Name = "Ferari",
+
+                        Price = 400
+                    },
+                    new Product
+                    {
+                        Name = "Ferari",
+
+                        Price = 400
+                    },
+                    new Product
+                    {
+                        Name = "Ferari",
+
+                        Price = 400
+                    },
+
+                    new Product
+                    {
                         Name = "Lexus",
                        
-                        Price = 175
+                        Price = 75
                     }
                     );
                 context.SaveChanges();

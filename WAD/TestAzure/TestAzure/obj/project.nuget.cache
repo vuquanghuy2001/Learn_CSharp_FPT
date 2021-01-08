@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "92ySxKMnytNC58yIE0dKTQnJLEcvxG0kRz4DyipGbfp90Nqi5Q44q5jeEQ4pRP1zsI3i5OydGrM/tXkR6fDbpQ==",
+  "dgSpecHash": "qwTl/R6AaS+KRYLdJlyQxL43wUWPcifgO/ohLzhorBW7EpPV9Wy2gNtbEUfHtB35FTxwxBTxyF65kpgb4R0Z4Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hieu_iceTea\\Desktop\\TestAzure\\TestAzure\\TestAzure.csproj",
+  "projectFilePath": "E:\\Hoc_Tap\\Learn_CSharp_FPT\\WAD\\TestAzure\\TestAzure\\TestAzure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hieu_iceTea\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Hieu_iceTea\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
