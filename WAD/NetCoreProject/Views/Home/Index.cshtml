@@ -1,6 +1,6 @@
-﻿@model IQueryable<Product>
+﻿@model ProductsListViewModel
 
-@foreach(var p in Model)
+@foreach(var p in Model.Products)
 {
     <div>
         <p>@p.Name</p>
@@ -9,3 +9,4 @@
         <p>@p.Category</p>
     </div>
 }
+<div page-model="@Model.PagingInfo" page-action="Index"></div>
