@@ -58,8 +58,13 @@ namespace NetCoreProject
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+                    "pagination", "Products/Page{productPage}",
+                    new { Controller = "Home", action = "Index" });
+                endpoints.MapDefaultControllerRoute();
+
+                    //name: "default",
+                    //pattern: "{controller=Home}/{action=Index}/{id?}");
             });
             SeedData.EnsurePopulated(app);
         }
