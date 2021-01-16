@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CoreProject.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace CoreProject
 {
@@ -18,12 +20,18 @@ namespace CoreProject
             Configuration = configuration;
         }
 
-        public IConfiguration Configuration { get; }
+        private IConfiguration Configuration { get; set; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<CoreProjectDbContext>(opts =>
+            {
+                opts.UseSqlServer(
+                    Configuration["ConnectionStrings:CoreProjectConnection"]);
+            });
+            services.AddScoped<IStoreRepository, EFStoeRespository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
